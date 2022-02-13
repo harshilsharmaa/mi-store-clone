@@ -1,0 +1,17 @@
+.hotAccessoriesMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hotAccessoriesLink{
+    margin: 1vmax;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.774);
+    padding: 0.5vmax 0;
+}
+.hotAccessoriesLink:hover{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}

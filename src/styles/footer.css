@@ -1,0 +1,59 @@
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+    padding: 4.5vmax;
+    background: rgb(37, 37, 37);
+}
+
+.footer > div >p{
+    color: rgba(255, 255, 255, 0.664);
+}
+.footer > div >a{
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 1vmax;
+    margin: 0.4vmax 0;
+}
+.footer > div >a:hover{
+    color: rgba(255, 255, 255, 0.932);
+    text-decoration: none;
+}
+
+.footer > div{
+    display: flex;
+    flex-direction: column;
+    margin: 1vmax;
+}
+.footer > div:last-child > div{
+    color: rgba(255, 255, 255, 0.932);
+    width: 45%;
+    margin: 1vmax 0;
+    font-size: 0.8vmax;
+}
+.footer > div:last-child > button{
+   width: 50%;
+   border: 1px solid white;
+   background-color: rgb(37, 37, 37);
+   color: white;
+   transition: all 0.3s ease;
+   padding: 0.5vmax 0;
+}
+
+.footer > div:last-child > button:hover{
+   background: rgba(255, 255, 255, 0.801);
+   color: rgb(37, 37, 37);
+}
+
+/* footer border */
+
+.footerBorder{
+    background: rgb(37, 37, 37);
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.footerBorder >div{
+    border-top: 1px solid rgba(197,197,197,0.185);
+    width: 90vmax;
+    margin: auto;
+    padding: 2vmax;
+    font-size: 0.98vmax;
+}

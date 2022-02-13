@@ -1,0 +1,23 @@
+.ProductReviewCard{
+    margin: 1vmax;
+    transition: all 0.3s ease;
+}
+
+.ProductReviewCard:hover{
+    transform: translateY(-0.1vmax);
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.288);
+}
+
+.ProductReviewCard h6{
+    margin: 2vmax 0 0.5vmax 2vmax;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.ProductReviewCard p{
+    margin: 1vmax 0 0.5vmax 2vmax;
+}
+
+.ProductReviewCard span{
+    color: orangered;
+    margin-left: 2vmax;
+}

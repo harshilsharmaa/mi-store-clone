@@ -1,0 +1,18 @@
+.HotAccessories{
+    display: flex;
+    width: 90vw;
+    margin: auto;
+}
+
+.HotAccessories >div:first-child > img{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.HotAccessories >div:first-child > img:hover{
+    transform: translateY(-0.1vmax);
+}
+
+.HotAccessories >:last-child{
+    display: flex;
+    flex-wrap: wrap;
+}

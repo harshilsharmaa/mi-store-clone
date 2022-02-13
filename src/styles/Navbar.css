@@ -1,0 +1,55 @@
+.nav{
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1vmax;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    background-color: white;
+}
+
+.logo{
+    background-color: orangered;
+    width: 58px;
+    border-radius: 20px;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;   
+}
+
+ #logoimg{
+    transition: all 0.3s ease;
+    transform: translateX(-58px);
+}
+ #logoimg:hover{
+    transform: translateX(0);
+}
+
+.navlinks{
+    color: grey;
+    text-decoration: none;
+    margin: 1vmax 1.2vmax;
+    font-weight: 500;
+    font-size: 1.1vmax;
+}
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: relative;
+    left: 5vmax;
+
+}
+
+.searchbox input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    width: 15vmax;
+    padding: 0.5vmax 0.5vmax;
+    color: grey;
+    font-weight: 100;
+}
